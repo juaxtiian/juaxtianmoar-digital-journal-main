@@ -21,16 +21,16 @@ function Proyectos() {
         </p>
       </div>
       
-      {/* PANEL DE PROYECTOS (Grid) */}
+      {/* PANEL DE PROYECTOS (Grid de 3 columnas) */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         
-        {/* PROYECTO 1: E-commerce (ACTIVO) */}
+        {/* PROYECTO 1: Juaxtian Store */}
         <article className="viewfinder-card group flex flex-col justify-between min-h-[320px] hover:border-[#10b981]/50 transition-colors">
           <div className="mb-6 flex justify-between items-start">
             <span className="font-mono text-[10px] tracking-widest text-[#10b981] bg-[#10b981]/10 px-3 py-1.5 rounded border border-[#10b981]/20">
               🟢 ACTIVO
             </span>
-            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">Negocio</span>
+            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">E-commerce</span>
           </div>
           <div className="mt-auto">
             <h3 className="text-2xl text-foreground mb-3 font-serif group-hover:text-[#10b981] transition-colors">
@@ -45,45 +45,45 @@ function Proyectos() {
           </div>
         </article>
 
-        {/* PROYECTO 2: Ecosistema Web (EN DESARROLLO) */}
-        <article className="viewfinder-card group flex flex-col justify-between min-h-[320px] hover:border-[#eab308]/50 transition-colors">
+        {/* PROYECTO 2: JXTN Languages Academy */}
+        <article className="viewfinder-card group flex flex-col justify-between min-h-[320px] hover:border-blue-500/50 transition-colors">
           <div className="mb-6 flex justify-between items-start">
-            <span className="font-mono text-[10px] tracking-widest text-[#eab308] bg-[#eab308]/10 px-3 py-1.5 rounded border border-[#eab308]/20">
-              🟡 EN DESARROLLO · 80%
+            <span className="font-mono text-[10px] tracking-widest text-blue-400 bg-blue-500/10 px-3 py-1.5 rounded border border-blue-500/20">
+              🔵 ACTIVO
             </span>
-            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">Software</span>
+            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">Educación</span>
           </div>
           <div className="mt-auto">
-            <h3 className="text-2xl text-foreground mb-3 font-serif group-hover:text-[#eab308] transition-colors">
-              Centro de Operaciones
+            <h3 className="text-2xl text-foreground mb-3 font-serif group-hover:text-blue-400 transition-colors">
+              JXTN Languages Academy
             </h3>
             <p className="prose-editorial text-sm mb-6">
-              Desarrollo de mi propia plataforma web interactiva y bitácora digital usando React, Tailwind y asistencia de modelos de lenguaje (VS Code + Lovable).
+              Academia de idiomas virtual. Una plataforma que combina inmersión tecnológica, showrooms 3D e Input Comprensible para que los estudiantes vivan el idioma.
             </p>
-            <span className="text-muted-foreground text-sm font-medium italic">
-              Estás navegando en él ↓
-            </span>
+            <a href="#" className="link-gold !text-blue-400 !bg-gradient-to-r !from-blue-400 !to-blue-400 text-sm">
+              Explorar plataforma →
+            </a>
           </div>
         </article>
 
-        {/* PROYECTO 3: Flujo de Contenido (FASE BETA) */}
-        <article className="viewfinder-card group flex flex-col justify-between min-h-[320px] hover:border-[#a855f7]/50 transition-colors">
+        {/* PROYECTO 3: Zigncia */}
+        <article className="viewfinder-card group flex flex-col justify-between min-h-[320px] hover:border-[#d946ef]/50 transition-colors">
           <div className="mb-6 flex justify-between items-start">
-            <span className="font-mono text-[10px] tracking-widest text-[#a855f7] bg-[#a855f7]/10 px-3 py-1.5 rounded border border-[#a855f7]/20">
-              🟣 FASE BETA
+            <span className="font-mono text-[10px] tracking-widest text-[#d946ef] bg-[#d946ef]/10 px-3 py-1.5 rounded border border-[#d946ef]/20">
+              🌌 CREATIVO
             </span>
-            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">Sistemas</span>
+            <span className="text-xs text-muted-foreground font-mono uppercase tracking-widest">Animación</span>
           </div>
           <div className="mt-auto">
-            <h3 className="text-2xl text-foreground mb-3 font-serif group-hover:text-[#a855f7] transition-colors">
-              Motor de Contenido IA
+            <h3 className="text-2xl text-foreground mb-3 font-serif group-hover:text-[#d946ef] transition-colors">
+              Zigncia
             </h3>
             <p className="prose-editorial text-sm mb-6">
-              Sistema documentado para la estructuración y producción de video persuasivo, combinando un stack estratégico de 3 herramientas gratuitas y 3 de pago.
+              Proyecto de animación original explorando mundos simbólicos, personajes únicos y narrativas visuales con una identidad distintiva.
             </p>
-            <Link to="/herramientas" className="link-gold !text-[#a855f7] !bg-gradient-to-r !from-[#a855f7] !to-[#a855f7] text-sm">
-              Ver stack de herramientas →
-            </Link>
+            <a href="https://facebook.com/Zigncia" target="_blank" rel="noreferrer" className="link-gold !text-[#d946ef] !bg-gradient-to-r !from-[#d946ef] !to-[#d946ef] text-sm">
+              Ver proyecto en Facebook →
+            </a>
           </div>
         </article>
 
